@@ -1,0 +1,46 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"move": {
+			"animation_length": 1,
+			"bones": {
+				"left_track": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				},
+				"gear_front_L": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [-360, 0, 0],
+						"1.0": {"pre": [0, 0, 0], "post": [0, 0, 0]}
+					},
+					"position": [0, 0, 0]
+				},
+				"passive_gear_1_L": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [360, 0, 0],
+						"1.0": [-360, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"gear_front_L2": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [-360, 0, 0],
+						"1.0": {"pre": [0, 0, 0], "post": [0, 0, 0]}
+					},
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}
