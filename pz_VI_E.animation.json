@@ -2,43 +2,124 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"move": {
-			"animation_length": 1,
+			"loop": true,
+			"animation_length": 1.25,
 			"bones": {
-				"left_track": {
-					"relative_to": {
-						"rotation": "entity"
-					},
-					"rotation": [0, 0, 0.01]
+				"passive_gear_1_L": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_2_L": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_3_L": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_4_L": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
 				},
 				"gear_front_L": {
-					"relative_to": {
-						"rotation": "entity"
-					},
 					"rotation": {
-						"0.0": [-360, 0, 0],
-						"1.0": {"pre": [0, 0, 0], "post": [0, 0, 0]}
-					},
-					"position": [0, 0, 0]
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
 				},
-				"passive_gear_1_L": {
-					"relative_to": {
-						"rotation": "entity"
-					},
+				"gear_back_L": {
 					"rotation": {
-						"0.0": [360, 0, 0],
-						"1.0": [-360, 0, 0]
-					},
-					"position": [0, 0, 0]
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
 				},
-				"gear_front_L2": {
-					"relative_to": {
-						"rotation": "entity"
-					},
+				"passive_gear_1_R": {
 					"rotation": {
-						"0.0": [-360, 0, 0],
-						"1.0": {"pre": [0, 0, 0], "post": [0, 0, 0]}
-					},
-					"position": [0, 0, 0]
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_2_R": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_3_R": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"passive_gear_4_R": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"gear_front_R": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"gear_back_R": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": [-360, 0, 0]
+					}
+				},
+				"root": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 1, 0],
+						"0.5": [0, 0, 0],
+						"0.6667": [0, 1, 0],
+						"0.8333": [0, 0, 0],
+						"1.0833": [0, 1, 0],
+						"1.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"turret_rotation": {
+			"animation_length": 11,
+			"bones": {
+				"turret": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"11.0": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"gun_turn_down": {
+			"animation_length": 0.5417,
+			"bones": {
+				"barrel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-5, 0, 0]
+					}
+				}
+			}
+		},
+		"gun_turn_up": {
+			"animation_length": 0.75,
+			"bones": {
+				"barrel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [15, 0, 0]
+					}
 				}
 			}
 		}
