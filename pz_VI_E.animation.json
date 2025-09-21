@@ -5,73 +5,73 @@
 			"loop": true,
 			"animation_length": 1.25,
 			"bones": {
-				"passive_gear_1_L": {
+				"right_passive_gear_1": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_2_L": {
+				"right_passive_gear_2": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_3_L": {
+				"right_passive_gear_3": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_4_L": {
+				"right_passive_gear_4": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"gear_front_L": {
+				"right_gear_front": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"gear_back_L": {
+				"right_gear_back": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_1_R": {
+				"left_passive_gear_1": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_2_R": {
+				"left_passive_gear_2": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_3_R": {
+				"left_passive_gear_3": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"passive_gear_4_R": {
+				"left_passive_gear_4": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"gear_front_R": {
+				"left_gear_front": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
 					}
 				},
-				"gear_back_R": {
+				"left_gear_back": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"1.25": [-360, 0, 0]
