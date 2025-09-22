@@ -122,6 +122,39 @@
 					}
 				}
 			}
+		},
+		"fire": {
+			"loop": true,
+			"animation_length": 2.625,
+			"loop_delay": 5.3,
+			"bones": {
+				"suspension_barrel": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.0833": {
+							"post": [0, 0, -7],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "88mmflak.mp3"
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "nozzle_blast"
+				}
+			}
 		}
 	}
 }
